@@ -7,13 +7,23 @@ body {
     font-weight: bold;
     text-align: center;
 }
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Profile Picture Styles */
 #profile-picture {
     width: 150px; 
     height: 150px; 
     border-radius: 50%; 
-    margin-left: 20px; 
+    margin-left: 420px; 
+}
+#introText {
+    font-size: 64px; 
+    margin-right: 120px;
+	margin-bottom:0;
 }
 
 /* Navigation Styles */
