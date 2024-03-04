@@ -17,8 +17,7 @@ body {
 #profile-picture {
     width: 150px; 
     height: 150px; 
-    border-radius: 50%; 
-    margin-left: 420px; 
+    border-radius: 50%;
 }
 #introText {
     font-size: 64px; 
