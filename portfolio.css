@@ -151,6 +151,12 @@ section#skills ul li {
 section#education p {
     border-bottom: 2px solid black;
 }
+.social-links img {
+    max-width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    transition: transform 0.3s ease; 
+}
 
 /* Media Query for Responsive Design */
 @media only screen and (max-width: 768px) {
@@ -170,5 +176,13 @@ section#education p {
     .social-links img {
         width: 60px;
         height: 60px; 
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* Adjustments for larger screens */
+    #projects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
     }
 }
