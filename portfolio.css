@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color:#7BE2B7;
+	font-weight: bold;
+	text-align:center;
+}
+#profile-picture {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image round */
+    margin-left: 20px; /* Adjust the margin to separate the image from the text */
+}
+
+
+nav {
+    background-color: #2c3e50; /* Dark blue */
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+	font-size:30px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #ff6f61; /* Change text color on hover */
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+text-align:center;	/* Dark blue */
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #2c3e50; /* Dark blue */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    width: 100%;
+    bottom: 0;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    border-radius: 50%; /* Make the images round */
+    transition: transform 0.3s ease; 
+	text-align:center;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+	
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+	padding-left:160px;
+	
+	/* Align items vertically */
+}
+.intro-container p {
+	font-size:75px;
+	 font-family:Verdana;
+	 
+}
+#projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project-links {
+    margin-top: auto; /* Align links to the bottom */
+    display: flex;
+    gap: 10px;
+}
+
+.project-screenshot {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+#hiEmoji {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+/* CSS Grid Layout */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 20px; /* Gap between grid items */
+}
+
+/* Style for each education item */
+.secondary-school, .diploma {
+    border: 1px solid #ccc;
+    padding: 10px;
+	list-style-type:none;
+}
+section#education ul,
+section#skills ul {
+    text-align: center;
+    margin: 0 auto; /* Center the list */
+    max-width: 600px; /* Adjust max-width as needed */
+    padding: 0;
+
+	
+}
+
+
+/* Add this CSS to remove the bullets from the list items */
+section#education ul li,
+section#skills ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	margin-bottom: 10px;
+}
+
+/* Add this CSS to style the list items within education and skills sections */
+section#education p{
+     border-bottom:2px solid black;
+}
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .intro-container {
+        flex-direction: column;
+        padding-left: 0;
+    }
+	body {
+		text-align:center;
+	}
+	* Make project images responsive */
+    .project-screenshot {
+        max-width: 100%; /* Adjust the width to fill the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
