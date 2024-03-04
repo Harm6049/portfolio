@@ -166,4 +166,19 @@ section#education p {
         max-width: 100%; 
         height: auto; 
     }
+    .project-screenshot {
+        max-width: 100%; 
+        height: auto; 
+    }
+	
+    .project-screenshot {
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    
+    .social-links img {
+        width: 60px;
+        height: 60px; 
+    }
 }
